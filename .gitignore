@@ -1,0 +1,27 @@
+database/connection.py
+
+# Папка с БД и кэшем
+/database/*.db
+/database/*.sqlite3
+/database/instance/
+
+# Служебные файлы и кэш IDE
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+
+# Виртуальное окружение Python
+venv/
+.env/
+.venv/
+env/
+
+# Файлы с переменными окружения
+.env
+*.env
+secrets.py
+config.py

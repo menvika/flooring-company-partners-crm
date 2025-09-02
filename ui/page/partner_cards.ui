@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>partner_cards</class>
+ <widget class="QWidget" name="partner_cards">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 18pt &quot;Arial&quot;;
+background-color: white;
+color: black;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 15px;
+background-color:#F4E8D3; </string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item alignment="Qt::AlignmentFlag::AlignLeft">
+           <widget class="QPushButton" name="button_name">
+            <property name="styleSheet">
+             <string notr="true">border:none;
+font-size: 25px;
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignLeft">
+           <widget class="QPushButton" name="button_director">
+            <property name="styleSheet">
+             <string notr="true">border:none;
+
+font-size: 18px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignLeft">
+           <widget class="QPushButton" name="button_phone">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:none;
+
+font-size: 18px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignLeft">
+           <widget class="QPushButton" name="button_rating">
+            <property name="styleSheet">
+             <string notr="true">border:none;
+
+font-size: 18px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item alignment="Qt::AlignmentFlag::AlignRight">
+         <widget class="QLabel" name="label_sale">
+          <property name="styleSheet">
+           <string notr="true">border: none;
+font-size: 40pt;
+color: #67BA80;
+font-weight: bold;
+margin-left: 10pt;</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QPushButton" name="button_see_sales_history">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>210</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#67Ba80;
+border-radius:15px;
+margin-top: 5pt;
+margin-left: 5pt;
+margin-right: 5pt;
+margin-bottom: 5pt;
+border: none;
+font-weight: bolder;
+font-size: 18pt;
+</string>
+            </property>
+            <property name="text">
+             <string>История продаж</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
